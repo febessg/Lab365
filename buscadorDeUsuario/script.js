@@ -1,4 +1,4 @@
-let users = [{
+/*let users = [{
     "name": "Scenic Stream",
     "username": "Eladio66",
     "rating": 0.9,
@@ -87,12 +87,13 @@ let users = [{
     "updated": "November 8, 2022",
     "coords": "-74.4389 146.7820"
   }
-  ]
+  ] */
 
+import users from './users.json' assert {type: "json"};
 
-console.log(users.length)
+console.log(users)
 
-function search() {
+window.search = () => {
     let findUser = document.getElementById('username');
     let userFound = document.getElementById('userFound')
     let name = document.getElementById('name')
