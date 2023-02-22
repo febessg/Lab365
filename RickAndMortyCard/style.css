@@ -1,1 +1,101 @@
+@charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(158, 248, 158)
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    color: darkturquoise;
+    font-size: 3em;
+    text-shadow: 0px 1px 2px green ;
+    
+}
+
+#container {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#character {
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: darkturquoise;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: darkturquoise;
+    transition-duration: 0.5s;
+}
+
+#name {
+    background-color: white;
+    color: darkturquoise;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+#card {
+    margin: auto;
+    background-color: darkturquoise;
+    width: 400px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.274);
+}
+
+#photo {
+    text-align: center;
+}
+
+#info {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#info > p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1em;
+}
