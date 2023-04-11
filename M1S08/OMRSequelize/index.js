@@ -23,6 +23,9 @@ database.sync();
     clientes.name = 'Maria Rita';
 
     await clientes.save();
+ 
+//Deletando dados da tabela
+   await clientes.destroy();
 
 app.listen(3333, () => {
     console.log('Servidor online')
