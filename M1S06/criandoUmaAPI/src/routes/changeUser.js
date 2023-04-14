@@ -1,9 +1,9 @@
 const Router = require('express');
 
+const validarCargo = require('../middlewares/validarCargo');
+
 const createUser = require("../controller/createUser");
 const deleteUser = require("../controller/deleteUser");
-
-const validarCargo = require('../middlewares/validarCargo');
 
 const routes = new Router();
 
