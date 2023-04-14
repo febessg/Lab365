@@ -3,6 +3,8 @@ const Router = require('express');
 const createUser = require("../controller/createUser");
 const deleteUser = require("../controller/deleteUser");
 
+const validarCargo = require('../middlewares/validarCargo');
+
 const routes = new Router();
 
 /* router.post('/addUser', (req, res) => {
@@ -22,7 +24,7 @@ router.delete('/deleteUser/:id', (req, res) => {
     }
 }) */
 
-routes.post('/addUser', createUser);
+routes.post('/addUser', validarCargo, createUser);
 routes.delete('/deleteUser/:id', deleteUser);
 
 module.exports = routes;
